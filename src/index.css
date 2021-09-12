@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "BillabongBold";
+  src: local("BillabongBold"),
+  url("./fonts/FontsFree-Net-Billabong.ttf") format("truetype");
+  font-weight: bold;
+}
