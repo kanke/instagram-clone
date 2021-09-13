@@ -1,0 +1,23 @@
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.col-span-4 {
+    grid-column: span 4 / span 4;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.border-gray-primary {
+    border-color: rgba(219, 219, 219, 1);
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}

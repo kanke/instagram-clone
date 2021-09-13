@@ -1,17 +1,12 @@
-
 import './App.css';
-import Header from "./components/Header/Header";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
-  return (
-      <div className="App">
-          <Header
-          />
-          {/*<PostsContainer*/}
-          {/*    posts={this.state.posts}*/}
-          {/*/>*/}
-      </div>
-  );
+    return (
+        <div className="App">
+            <Dashboard />
+        </div>
+    );
 }
 
 export default App;
