@@ -1,4 +1,3 @@
-
 /*
 User Component
 ========
@@ -7,10 +6,8 @@ User Component
 .username {
     font-size: 14px;
     line-height: 14px;
-    margin: -2px 0 -3px;
-    color: black;
+    color: #000000;
     font-weight: bold;
-    margin-left: -25px !important;
     margin-top: 30px !important;
 }
 
@@ -19,9 +16,28 @@ User Component
     color: #8e8e8e;
     font-size: 14px;
     line-height: 14px;
-    padding-right: 24px;
 }
 
+.followers {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+}
+.small {
+    font-size: 11px;
+    width: max-content;
+    margin-left: 8px;
+}
+
+.push {
+    padding-right: 124px;
+}
+
+.ok {
+    margin-left: -45px;
+}
 /*
 Suggestion Component
 ========
@@ -34,3 +50,7 @@ Suggestion Component
     font-weight: bold;
 }
 
+/*
+Footer Component
+========
+*/

@@ -12,7 +12,7 @@ function Suggestions() {
             </WordContainer>
             <Button black>See All</Button>
         </Styles>
-            <User following/>
+            <User following="true"/>
         </div>
     );
 

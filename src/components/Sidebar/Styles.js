@@ -6,10 +6,12 @@ const Styles = styled.div`
   margin-top: 20px;
   justify-content: space-between;
   grid-column: span 1 / span 1;
+  width: 280px;
 `;
 
 const WordContainer = styled.div`
   word-wrap: break-word;
+  padding-right: 40px;
 `;
 
 const Button = styled.button`
@@ -21,7 +23,7 @@ const Button = styled.button`
   font-weight: bold;
 
   ${props => props.black && css`
-    color: black;
+    color: #000000;
     border: none;
     background: none;
     font-weight: bold;
