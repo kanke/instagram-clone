@@ -5,7 +5,8 @@
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, .0975);
     height: 54px;
-    width: 90%;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .nav {
