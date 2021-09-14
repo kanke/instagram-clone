@@ -1,7 +1,7 @@
 import React from 'react';
 import '../User/User.css';
 import Avatar from "@material-ui/core/Avatar";
-import {Button, Styles, WordContainer} from "../Styles";
+import {Button, Styles, WordContainer} from "../../../styles/Styles";
 import {makeStyles} from "@material-ui/core";
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 

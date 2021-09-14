@@ -1,14 +1,13 @@
 import React from 'react';
-import './Sidebar.css';
-import User from "./User/User";
-import {Button, Styles, WordContainer} from "./Styles";
+import User from "../User/User";
+import {Button, SuggestionTitle, Styles, WordContainer} from "../../../styles/Styles";
 
-function Suggestions() {
+function Suggestion() {
     return (
         <div>
         <Styles>
             <WordContainer>
-                <p className="title">Suggestions For You</p>
+                <SuggestionTitle>Suggestions For You</SuggestionTitle>
             </WordContainer>
             <Button black>See All</Button>
         </Styles>
@@ -19,4 +18,4 @@ function Suggestions() {
 
 }
 
-export default Suggestions;
+export default Suggestion;

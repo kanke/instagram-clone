@@ -6,7 +6,7 @@ import FavoriteBorderOutlinedIcon from "@material-ui/icons/FavoriteBorderOutline
 import ChatBubbleOutlineOutlinedIcon from '@material-ui/icons/ChatBubbleOutlineOutlined';
 import TurnedInNotOutlinedIcon from '@material-ui/icons/TurnedInNotOutlined';
 import SentimentSatisfiedOutlinedIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
-import {Button} from "../Sidebar/Styles";
+import {Button} from "../../styles/Styles";
 
 function Post() {
     const index = 2;
@@ -34,7 +34,7 @@ function Post() {
                 {/*<Like postId="1" />*/}
                 <div className="Post-caption">
                     {/*<Link className="anchor-nodec" to={"/user/" + post.User.id}>*/}
-                    <a className="anchor-nodec" to={"/user/" + 1}>
+                    <a href="/" className="anchor-nodec" to={"/user/" + 1}>
                         {/*<strong>{post.User.name}</strong>*/}
                         <strong>knakdkajsbjdkask</strong>
                     </a>

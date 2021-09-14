@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../styles/index.css';
+import './styles/index.css';
 import App from './App';
-import reportWebVitals from '../reportWebVitals';
-import '../fonts/FontsFree-Net-Billabong.ttf'
+import reportWebVitals from './reportWebVitals';
+import './styles/fonts/FontsFree-Net-Billabong.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

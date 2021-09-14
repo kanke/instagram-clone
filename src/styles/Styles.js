@@ -31,4 +31,23 @@ const Button = styled.button`
   `}
 `;
 
-export {Styles, WordContainer, Button};
+const FooterContainer = styled.footer`
+  color: #c7c7c7;
+`;
+
+const Span = styled.span`
+  display:block;
+  width:259px;
+  word-wrap:break-word;
+  text-align: left;
+  padding-top: 20px;
+`;
+
+const SuggestionTitle = styled.p`
+  color: #8e8e8e;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+`;
+
+export {Styles, WordContainer, Button, FooterContainer, Span, SuggestionTitle};
