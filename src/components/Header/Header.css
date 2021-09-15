@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+    height: 54px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.nav-items {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+a {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.font-face-bill {
+    font-family: "BillabongBold";
+    font-size: 38px;
+    color: black;
+}
+
+.search-bar {
+    border: solid 1px #dbdbdb;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    padding: 6px 0px 6px 0px;
+    border-radius: 3px;
+    font-family: Helvetica, 'Font Awesome 5 Free', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder {
+    text-align: center;
+}
