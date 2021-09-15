@@ -1,39 +1,17 @@
-.rounded {
-    border-radius: 0.25rem;
-}
-
-.col-span-4 {
-    grid-column: span 4 / span 4;
-}
-
-.border {
-    border-width: 1px;
-}
-
-.bg-white {
-    background-color: rgba(255, 255, 255, 1);
-    background-color: #FFFFFF;
-}
-
-.border-gray-primary {
-    border-color: rgba(219, 219, 219, 1);
-}
-
-.mb-12 {
-    margin-bottom: 3rem;
-}
+/*
+Post SECTION
+========
+*/
 
 /* /////////// for post */
-.Post {
+.post {
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
     margin-bottom: 60px;
-    /*margin-left: 20%;*/
-    /*margin-right: 20%;*/
     padding-right: 50px;
     margin-right: 34px;
-    margin-top: -24%;
+    margin-top: -30%;
 }
 
 .Post-user {
@@ -106,32 +84,6 @@
     text-decoration: none;
     border: none;
     /*padding: none;*/
-}
-
-.post-like-button-white {
-    display: block;
-    background-position: -143px -406px;
-    /*background-image: url(./sprite.png);*/
-    background-size: 469px 472px;
-    background-repeat: no-repeat;
-    height: 34px;
-    width: 33px;
-    padding-left: 10px;
-    margin-left: 12px;
-    text-indent: -1000%;
-}
-
-.post-like-button-black {
-    display: block;
-    background-position: -229px -401px;
-    /*background-image: url(./sprite.png);*/
-    background-size: 467px 466px;
-    background-repeat: no-repeat;
-    height: 34px;
-    width: 31px;
-    padding-left: 10px;
-    margin-left: 12px;
-    text-indent: -1000%;
 }
 
 .post-icons {

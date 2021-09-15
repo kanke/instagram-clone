@@ -1,6 +1,7 @@
 import styled, {css} from 'styled-components'
+import {makeStyles} from "@material-ui/core";
 
-const Styles = styled.div`
+const UserContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -36,9 +37,9 @@ const FooterContainer = styled.footer`
 `;
 
 const Span = styled.span`
-  display:block;
-  width:259px;
-  word-wrap:break-word;
+  display: block;
+  width: 259px;
+  word-wrap: break-word;
   text-align: left;
   padding-top: 20px;
 `;
@@ -50,4 +51,20 @@ const SuggestionTitle = styled.p`
   font-weight: bold;
 `;
 
-export {Styles, WordContainer, Button, FooterContainer, Span, SuggestionTitle};
+const avatarSize = makeStyles((theme) => ({
+    small: {
+        width: theme.spacing(3),
+        height: theme.spacing(3),
+    },
+    large: {
+        width: theme.spacing(7),
+        height: theme.spacing(7),
+    },
+    timeline: {
+        width: theme.spacing(7),
+        height: theme.spacing(7),
+        border: "solid 1px red",
+    }
+}));
+
+export {UserContainer, WordContainer, Button, FooterContainer, Span, SuggestionTitle, avatarSize};

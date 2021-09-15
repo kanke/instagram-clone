@@ -1,10 +1,108 @@
 .pee {
     background-color: #FFFFFF;
-    width: 436px;
+    /*width: 455px;*/
+    width: 557px;
     border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    /*padding: 50px;*/
     border: 1px solid rgba(0, 0, 0, .0975);
-    max-height: 3px;
+    max-height: 35%;
     border-radius: 3px;
+    display: flex;
+    align-items: baseline;
 }
+
+
+/*****goals *****/
+.list-horizontal-display > div {
+    display: inline-block;
+}
+
+
+/******here*****/
+.main {
+    text-align: center;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 42px;
+}
+
+
+.image {
+    height: 45px;
+    /*width: 85px;*/
+    /*font-size: 25px;*/
+    /*background: blue;*/
+    margin: 10px;
+    /*margin-top: -7px;*/
+    display: inline-block;
+}
+
+
+.image-container {
+    /*vertical-align: middle;*/
+    /*display: inline-block;*/
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 478px;
+    margin-top: -18px;
+}
+
+.prev, .next {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    cursor: pointer;
+    color: black;
+    transition: 0.6s ease;
+}
+
+.next {
+    margin-left: 2px;
+    /* margin-right: -2px; */
+    background-color: pink;
+    width: 18px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+    padding-left: 6px;
+    border-radius: 70%;
+    margin-top: 5px;
+}
+
+.prev {
+    margin-right: 5px;
+    margin-left: 2px;
+    background-color: pink;
+    width: 18px;
+    height: 10px;
+    align-items: center;
+    display: flex;
+    padding-left: 6px;
+    border-radius: 70%;
+    margin-top: 5px;
+}
+
+/*.prev:hover, .next:hover {*/
+/*    color: white;*/
+/*    height: 100%;*/
+/*    background-color: #000000;*/
+/*}*/
+
+.wrapper {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.text {
+    color: #000000;
+    font-size: 12px;
+}
+/*a:hover {*/
+/*    color: hotpink;*/
+/*}*/

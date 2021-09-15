@@ -7,13 +7,25 @@ import ChatBubbleOutlineOutlinedIcon from '@material-ui/icons/ChatBubbleOutlineO
 import TurnedInNotOutlinedIcon from '@material-ui/icons/TurnedInNotOutlined';
 import SentimentSatisfiedOutlinedIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
 import {Button} from "../../styles/Styles";
+import {useAsync} from "react-async";
 
-function Post() {
+const loadPosts = async () =>
+    await fetch("https://flynn.boolean.careers/exercises/api/boolgram/posts")
+        .then(res => (res.ok ? res : Promise.reject(res)))
+        .then(res => res.json())
+
+const Post = () => {
     const index = 2;
+    const {data, error, isLoading} = useAsync({promiseFn: loadPosts})
+    if (isLoading) return "Loading..."
+    if (error) return `Something went wrong: ${error.message}`
+    if (data)
+        console.log("data " + data)
+
     return (
         <>
             {/*{data.Post.map((post, index) => (*/}
-            <article className="Post" key={index}>
+            <article className="post" key={index}>
                 <header className="Post-user">
                     <User post="true" src="https://imgur.com/VCpS8cd.jpeg" name="Baby Yoda" username="babyyoda"
                           text="Chicago, Illinois"/>
