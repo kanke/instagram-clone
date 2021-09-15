@@ -4,7 +4,8 @@ import Avatar from "@material-ui/core/Avatar";
 import {Button, UserContainer, WordContainer, avatarSize} from "../../../styles/Styles";
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
-function User(props) {
+
+const User = (props) => {
     const classes = avatarSize();
     const followProp = props.following;
     const name = props.name;
@@ -19,11 +20,11 @@ function User(props) {
                 (<UserContainer>
                         <Avatar alt={name} src={imgSrc}/>
                         <WordContainer>
-                            <a href="/" className="username small push">{username}</a>
+                            <a href="/" className="username small username-padding">{username}</a>
                             <p className="name small">{text}</p>
                         </WordContainer>
-                        {postProp ? (<Button className="dots"><MoreHorizIcon/></Button>) : (
-                            <Button className="ok">Follow</Button>)}
+                        {postProp ? (<Button className="dots-menu"><MoreHorizIcon/></Button>) : (
+                            <Button className="follow-button">Follow</Button>)}
                     </UserContainer>
                 ) :
                 (<UserContainer>

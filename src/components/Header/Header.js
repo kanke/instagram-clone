@@ -7,7 +7,8 @@ import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutline
 import Avatar from '@material-ui/core/Avatar'
 import {Form, FormGroup, Input} from 'reactstrap';
 
-function Header() {
+
+const Header = () => {
     return (
         <div className="navbar">
             <div>

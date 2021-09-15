@@ -28,7 +28,7 @@
     margin-left: 8px;
 }
 
-.push {
+.username-padding {
     padding-right: 124px;
 }
 
@@ -40,12 +40,12 @@
     margin-left: -38px;
 }
 
-.ok {
+.follow-button {
     margin-left: -45px;
 }
 
-.dots {
+.dots-menu {
     color: #000000 !important;
-    margin-left: 80%;
+    padding-left: 30%;
     cursor: pointer;
 }

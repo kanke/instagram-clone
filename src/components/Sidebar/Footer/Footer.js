@@ -1,7 +1,8 @@
 import React from 'react';
 import {FooterContainer, Span} from "../../../styles/Styles";
 
-function Footer() {
+
+const Footer = () => {
     return (
         <div>
             <FooterContainer className="small text">

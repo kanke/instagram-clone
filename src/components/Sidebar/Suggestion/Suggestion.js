@@ -2,7 +2,7 @@ import React from 'react';
 import User from "../User/User";
 import {Button, SuggestionTitle, UserContainer, WordContainer} from "../../../styles/Styles";
 
-function Suggestion() {
+const Suggestion = () => {
     return (
         <div>
         <UserContainer>

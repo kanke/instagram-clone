@@ -7,7 +7,6 @@ const UserContainer = styled.div`
   margin-top: 20px;
   justify-content: space-between;
   grid-column: span 1 / span 1;
-  width: 280px;
 `;
 
 const WordContainer = styled.div`
