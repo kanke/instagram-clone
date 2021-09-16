@@ -44,3 +44,15 @@ a, a:visited, a:hover, a:active {
 a:hover {
   text-decoration: underline;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}

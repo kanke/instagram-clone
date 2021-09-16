@@ -1,0 +1,21 @@
+.post-likes {
+    margin-top: -25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 18px;
+}
+
+.post-link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.post-likes-container {
+    margin-top: -25px;
+    margin-bottom: 8px;
+    display: block;
+    margin-right: 43%;
+}

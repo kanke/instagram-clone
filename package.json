@@ -5,15 +5,13 @@
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "date-fns": "^2.23.0",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-async": "^10.0.1",
     "react-dom": "^17.0.2",
     "react-horizontal-scrolling-menu": "^2.1.0",
+    "react-loader-spinner": "^4.0.0",
     "react-scripts": "4.0.3",
     "reactstrap": "^8.10.0",
     "styled-components": "^5.3.1",
@@ -42,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
   }
 }

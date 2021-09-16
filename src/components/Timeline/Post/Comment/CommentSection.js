@@ -8,6 +8,7 @@ const CommentSection = (props) => {
         return (
             <div className="all-comments">
                 <table>
+                    <tbody>
                     <tr>
                         <div className="comment-caption">
                             <a href="/">
@@ -28,9 +29,12 @@ const CommentSection = (props) => {
                             </div>
                         ))}
                     </tr>
+                    </tbody>
                 </table>
             </div>
         )
+    } else {
+        return (<></>)
     }
 }
 export default CommentSection;
