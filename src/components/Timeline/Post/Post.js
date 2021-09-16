@@ -9,43 +9,13 @@ import {useAsync} from "react-async";
 import {avatarSize, Button} from "../../../styles/Styles";
 import User from "../../Sidebar/User/User";
 import {formatDistance} from 'date-fns';
+import CommentSection from "./Comment/CommentSection";
 
 const loadPosts = async () =>
     await fetch("https://flynn.boolean.careers/exercises/api/boolgram/posts")
         .then(res => (res.ok ? res : Promise.reject(res)))
         .then(res => res.json())
 
-const renderComments = (post) => {
-    const commentLength = post.comments.length;
-    if (commentLength > 0) {
-        return (
-            <div className="all-comments">
-                <table>
-                    <tr>
-                        <div className="post-caption">
-                            <a href="/">
-                                <strong>{post.profile_name}</strong>
-                            </a>
-                            <span>{post.post_text}</span>
-                        </div>
-                <a href="/" className="comment-title">
-                    {(commentLength > 1) ? `View all ${commentLength} comments` : `View all ${commentLength} comment`} </a>
-                {post.comments.map((comment, index) => (
-                    <div key={index}>
-                        <td>
-                        <a href="/">
-                            <strong>{comment.username}</strong>
-                        </a>
-                            <span>{comment.text}</span>
-                        </td>
-                    </div>
-                ))}
-                    </tr>
-                </table>
-            </div>
-        )
-    }
-}
 
 const renderLikes = (post, classes) => {
     const likesLength = post.likes.length;
@@ -96,7 +66,8 @@ const Post = () => {
                             <TurnedInNotOutlinedIcon className="post-icons-items last-icon" alt="save"/>
                         </div>
                         {renderLikes(post, classes)}
-                        {renderComments(post)}
+                        {/*{renderComments(post)}*/}
+                        <CommentSection post={post} />
                         <div className="post-time">
                             {formatDistance(new Date(post.date.date), new Date(), {addSuffix: true})}
                         </div>
@@ -112,7 +83,6 @@ const Post = () => {
                 ))}
             </>
         );
-
 }
 
 export default Post;

@@ -1,0 +1,79 @@
+
+.comment-form-container {
+    background: #ffffff;
+    border: 0;
+    display: flex;
+    margin-top: 10px;
+    width: 555px;
+}
+
+.comment-form-textarea {
+    resize: none;
+    width: 100%;
+    margin-right: 58%;
+    background: 0 0;
+    border: 0;
+    color: #262626;
+    outline: 0;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.comment-form {
+    display: flex;
+    border-top: 1px solid #efefef;
+    margin: auto;
+    width: 100%;
+}
+
+.comment-form-emoji {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.add-comment-button {
+    margin-right: 15px;
+    opacity: 0.5;
+}
+
+.add-comment {
+    background: 0 0;
+    border: 0;
+    color: #262626;
+    font-size: inherit;
+    height: 18px;
+    max-height: 80px;
+    outline: 0;
+    padding: 0;
+    resize: none;
+}
+
+.comment-title {
+    color: #8e8e8e !important;
+    font-weight: 500;
+    padding: 3px;
+}
+
+.comment-link {
+    padding-right: 10px;
+}
+
+.all-comments {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.comment-caption {
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+tr {
+    text-align: left;
+}
+
+span {
+    margin-left: -10px;
+}
