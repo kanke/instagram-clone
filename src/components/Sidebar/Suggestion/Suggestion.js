@@ -12,7 +12,7 @@ const Suggestion = () => {
             <Button black>See All</Button>
         </UserContainer>
             <User following="true" src="https://imgur.com/5xBC9OQ.jpeg" name="Mando" username="mando"
-            text="Followed by asokha + 5 more"/>
+            text="Followed by ahsoka + 5 more"/>
         </div>
     );
 

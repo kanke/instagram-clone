@@ -22,10 +22,6 @@ Post SECTION
     margin-top: -5px;
 }
 
-.post-image-bg {
-    background-color: #efefef;
-}
-
 .post-image img {
     display: block;
     width: 110%;
@@ -33,27 +29,18 @@ Post SECTION
 }
 
 .post-caption {
-    /*padding: 5px 0px 5px 3px;*/
-    font-size: 14px;
-    /*margin-left: -69%;*/
+    padding-left: 3px;
+    padding-bottom: 3px;
 }
 
-/*.Post-likes {*/
-/*    padding: 5px 0px 5px 16px;*/
-/*    font-size: 14px;*/
-/*}*/
-
-/*.Post-caption strong {*/
-/*    font-family: "PT Sans", sans-serif;*/
-/*    font-weight: bold;*/
-/*}*/
-
 .post-time {
-    font-weight: lighter;
-    font-size: 10px;
-    padding-left: 16px;
-    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 11px;
+    padding-left: 28px;
+    padding-top: 6px;
     margin-left: -87%;
+    color: #8e8e8e;
+    text-transform: uppercase;
 }
 
 .post-icons {
@@ -79,12 +66,6 @@ Post SECTION
 Comment SECTION
 ========
 */
-.all-comments {
-    cursor: pointer;
-    /*margin-left: -70%;*/
-    /*margin-right: 0;*/
-    text-indent: -18.5em;
-}
 
 .comment-form-container {
     background: #ffffff;
@@ -125,14 +106,6 @@ Comment SECTION
     opacity: 0.5;
 }
 
-/*.hamburger {*/
-/*    width: 100%;*/
-/*    margin-top: 15px;*/
-/*    cursor: pointer;*/
-/*    max-width: 25px;*/
-/*    max-height: 25px;*/
-/*}*/
-
 .add-comment {
     background: 0 0;
     border: 0;
@@ -146,7 +119,52 @@ Comment SECTION
 }
 
 .comment-title {
-    color: #8e8e8e;
+    color: #8e8e8e !important;
     font-weight: 500;
-    /*padding: 5px 0px 5px 3px;*/
+    padding: 3px;
+}
+
+.comment-link {
+    padding-right: 10px;
+}
+
+.all-comments {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+tr {
+    text-align: left;
+}
+
+span {
+    margin-left: -16px;
+}
+
+/*
+likes SECTION
+========
+*/
+
+.post-likes {
+    margin-top: -25px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: black;
+    padding-left: 18px;
+    /*margin-left: -69%;*/
+}
+
+.post-link {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.post-likes-container {
+    margin-top: -25px;
+    margin-bottom: 8px;
+    display: block;
+    margin-right: 43%;
 }

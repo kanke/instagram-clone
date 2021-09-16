@@ -1,5 +1,5 @@
 #  :bowtie: About this application #
-A small replica of the homepage of Instagram web using React and consuming a set of endpoints.
+A small replica of the homepage of Instagram web using React and consuming a set of endpoints. Uses Material design and Jest for unit testing
 
 ##  To run this project ##
 
