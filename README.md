@@ -1,5 +1,7 @@
 #  :bowtie: About this application #
-A small replica of the homepage of Instagram web using React and consuming a set of endpoints. Uses Material design and Jest for unit testing
+A small replica of the homepage of Instagram web using React and consuming a set of endpoints. Uses Material design and Jest for unit testing.
+
+View live app here on [Heroku](https://instagram-clone-kanke.herokuapp.com/)
 
 ![Imgur](https://imgur.com/WVkGdHR.png)
 

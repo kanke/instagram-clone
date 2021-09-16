@@ -6,7 +6,6 @@ import $ from 'jquery';
 import {useAsync} from 'react-async';
 import fetchStories from "../../../api/stories";
 
-
 const scroll = (direction) => {
     let far = $('.image-container').width() / 2 * direction;
     let pos = $('.image-container').scrollLeft() + far;
@@ -24,9 +23,9 @@ const Story = () => {
             <div className="story-container">
                 <div className="main">
                     <div className="wrapper">
-                        <a className="prev" onClick={() => {
+                        <button className="prev" onClick={() => {
                             scroll(-1);
-                        }}>&#10094;</a>
+                        }}>&#10094;</button>
                         <div className="image-container">
                             {data.map((profile, index) => (
                                 <div className="image" key={index}>
@@ -35,9 +34,9 @@ const Story = () => {
                                 </div>
                             ))}
                         </div>
-                        <a className="prev" onClick={() => {
+                        <button className="prev" onClick={() => {
                             scroll(1);
-                        }}>&#10095;</a>
+                        }}>&#10095;</button>
                     </div>
                 </div>
             </div>
